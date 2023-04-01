@@ -1,0 +1,23 @@
+.container {
+  display: contents;
+
+  .titleFilter {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .clearIcon {
+    text-align: center;
+    color: #007bff;
+    text-decoration: underline;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .wrapper {
+    display: flex;
+    height: 100vh;
+    width: 100vh;
+    justify-content: center;
+  }
+}
