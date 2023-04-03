@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import "./App.scss";
 import Filter from "./componentes/filter/Filter";
-import Carts from "./componentes/cards/Cards";
+import Cards from "./componentes/cards/Cards";
 import Pages from "./componentes/pages/Pages";
 import Search from "./componentes/search/Search";
 import Navbar from "./componentes/navbar/Navbar";
 import { BrowserRouter , Routes, Route} from "react-router-dom"
-import Episodes from "./componentes/pages/Episodes";
-import Location from "./componentes/pages/Location";
+import CharacterSpecific from './componentes/characterSpecific/Character'
+import Favorite from "./componentes/pages/Favorite";
 // import blogFetch from "./axios/Config"
 
 function App() {
@@ -18,8 +18,8 @@ function App() {
       </div>
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/episodes" element={<Episodes/>} />
-        <Route path="/location" element={<Location/>} />
+        <Route path="/:id" element={<CharacterSpecific/>} />
+        <Route path="/favoritos" element={<Favorite/>} />
       </Routes>
     </BrowserRouter>
   )
@@ -28,6 +28,7 @@ function App() {
 function Home() {
   let [numberPage, setNumberPage] = useState(1);
   let [search, setSearch] = useState("");
+  let [favourite, setfavourite] = useState("");
   let [status, setStatus] = useState("");
   let [gender, setGender] = useState("");
   let [species, setSpecies] = useState("");
@@ -57,7 +58,7 @@ function Home() {
       </div>
       <div className="container">
         <div className="row">
-          <Carts results={results} />
+          <Cards page="/" results={results} setfavourite={setfavourite}/>
         </div>
       </div>
       <div>

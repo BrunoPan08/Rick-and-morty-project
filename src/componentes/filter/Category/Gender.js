@@ -26,7 +26,7 @@ const Gender = ({ setGender, setNumberPage }) => {
   return (
     <div className={styles.item}>
       <div className={styles.title} onClick={(i) => toggle(i)}>
-        <div>Gender</div>
+        <div>Genero</div>
         <span>{isOpen()}</span>
       </div>
       <div className={checkedOptionISOpen()}>

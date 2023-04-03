@@ -16,7 +16,7 @@ function Filter({ setStatus, setNumberPage, setGender, setSpecies }) {
   return (
     <div className={styles.container}>
       <div className={styles.titleFilter}>Filtros</div>
-      <div className={styles.clearIcon} onClick={clear}>clear</div>
+      <div className={styles.clearIcon} onClick={clear}>Limpar</div>
       <div className={styles.wrapper}>
         <div className={styles.accordion}>
           <Status setStatus={setStatus} setNumberPage={setNumberPage} />

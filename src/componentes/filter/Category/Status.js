@@ -25,7 +25,7 @@ const Status = ({ setStatus, setNumberPage }) => {
   return (
     <div className={styles.item}>
       <div className={styles.title} onClick={(i) => toggle(i)}>
-        <div>Status</div>
+        <div>Estados</div>
         <span>{isOpen()}</span>
       </div>
       <div className={checkedOptionISOpen()}>

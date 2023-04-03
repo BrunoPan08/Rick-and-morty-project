@@ -37,7 +37,7 @@ const Species = ({ setSpecies, setNumberPage }) => {
   return (
     <div className={styles.item}>
       <div className={styles.title} onClick={(i) => toggle(i)}>
-        <div>Species</div>
+        <div>Especies</div>
         <span>{isOpen()}</span>
       </div>
       <div className={checkedOptionISOpen()}>

@@ -8,18 +8,15 @@ const navbar = () => {
       <div className={styles.navbar}>
         <div className={styles.containerFluid}>
           <a className={styles.alignTitle} href="#">
-            <h3>Rick and morty</h3>
+            <h3>Rick and Morty</h3>
           </a>
           <div className={styles.pagesNav}>
             <div className={styles.alignNav}>
                   <NavLink to="/" className={styles.alignItem}>
                     Personagem
                   </NavLink>
-                  <NavLink to="/episodes" className={styles.alignItem}>
-                    Episodios
-                  </NavLink>
-                  <NavLink to="/location" className={styles.alignItem}>
-                    Location
+                  <NavLink to="/favoritos" className={styles.alignItem}>
+                    Favoritos
                   </NavLink>
             </div>
           </div>

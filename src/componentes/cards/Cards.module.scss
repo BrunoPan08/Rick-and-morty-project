@@ -15,7 +15,9 @@
       
       .nameCharacter {
         font-weight: bold;
-        font-size: 1.3rem;    
+        font-size: 1.3rem;   
+        color: black;
+        text-decoration: none;      
       }
 
       .localization {
@@ -23,6 +25,13 @@
 
         .titleLocalization {
             padding-right: 0.5rem;
+            color: black;
+            text-decoration: none;
+        }
+
+        .nameLocalization {
+          color: black;
+          text-decoration: none;
         }
       }
     }
@@ -80,6 +89,34 @@
     color: #fff;
     background-color: #6c757d;
   }
+
+  .heardIcon {
+    position: absolute;
+    display: inline-block;
+    padding: 0.3rem 0.1rem;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    z-index: 1;
+    top: 15.8rem;
+    right: 2rem;
+
+    svg {
+      width: 2rem;
+      fill: #dc3545;
+    }
+    svg:hover {
+      fill: #F93C2B;
+    }
+    .active {
+      fill: #F93C2B;
+    }
+  }
+
 }
 
 
