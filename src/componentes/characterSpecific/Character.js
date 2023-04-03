@@ -5,7 +5,7 @@ import style from "./Character.module.scss"
 const Character = () => {
   let [fetchedData, updateFetchedData] = useState([]);
   let {id} = useParams();
-  let {name, image, created,species, status, type, gender} = fetchedDataç
+  let {name, image, created,species, status, type, gender} = fetchedData;
   let api = `https://rickandmortyapi.com/api/character/${id}`
   useEffect(() => {
     (async function () {

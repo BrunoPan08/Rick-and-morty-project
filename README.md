@@ -41,6 +41,10 @@ Itens extra
 Criado o arquivo eslintrc para caso de erro na identação ou alguma falha no codigo.
 Utilização do scss para design na pagina.
 
+Comando para rodar codigo
+
+npm start
+
 
  
  
