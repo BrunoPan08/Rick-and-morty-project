@@ -14,7 +14,7 @@ As library que foram baixados para projeto são:
  Etapa seguinte foi a instalação das bibliotecas.
  Após criado o projeto foi feito a limpeza dos arquivos que não iria usar.
  No arquivo App.js foi chamado a URL onde possui a API. FOi criado a pasta componentes com os arquivos cards, filter, search, navbar e pages.
- Cards são aonde passa as informações e a imagem do personagem.
+ Cards são aonde paFssa as informações e a imagem do personagem.
  Filter são buscas especifica de caracteristica do usuario.
  Search é a procura do nome do usuario.
  Pages possui a funcionalidade da troca de pagina para buscar mais personagens.
@@ -24,7 +24,7 @@ As library que foram baixados para projeto são:
  Utilização da webpage
 
     A homepage vai iniciar com um campo de navegação com botões para a pagina principal e os favoritos. Abaixo tera um campo para digitar o nome do personagem
- e os personagem com o nome e a informação da ultima localização. No canto esquerdo tera um filtro em que o usuario pode buscar persoangens pelo estado,
+ e os personagem com o nome e a informação da ultima localizaçFão. No canto esquerdo tera um filtro em que o usuario pode buscar persoangens pelo estado,
  genero e especie. No final da pagina tera dois botões de próximo e anterior, para acessar mais personagens.
     Ao clicar em um personagem ira direcionar para uma pagina com mais informações sobre o personagem escolhido com os seguintes items: genero, especie,
 tipo, nascimento e estado, alem do nome  e a imagem.

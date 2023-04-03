@@ -7,7 +7,6 @@ function Cartoes({ results , setfavourite, page}) {
   const [selected, setSelected] = useState(null);
   let display;
   let i;
-  console.log("pegar resultado", results);
   const toggle = (character) => {
     if(selected === i) { 
       return setSelected(character)
@@ -19,7 +18,6 @@ function Cartoes({ results , setfavourite, page}) {
   function isOpen(){
     return selected === i ? "" : `${style.active}`;
   }
-  console.log("mostrar resultado", results);
   if (results) {
     display = results.map((showCharacter) => {
       let { id, name, image, location, status } = showCharacter;
